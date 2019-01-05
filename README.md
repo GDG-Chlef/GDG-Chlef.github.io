@@ -9,3 +9,5 @@ https://gdg-chlef.github.io/
 4. Push your changes to your fork with `git push`
 5. Create a pull request.
 6. Get merged! 🎉 💖 ✨ 💫 
+
+Powered By **GDG Chlef Dev-Team** ;) Enjoy !
