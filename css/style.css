@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+main {
+    height: 80vh;
+}
+
+h1 {
+    color: rgb(68, 152, 255);
+    font-size: 4rem;
+    line-height: 5.6rem;
+}
+
+.coming-soon{
+    font-size: 2rem;
+    line-height: 1.25rem;
+    color: #747474;
+}
+
+
+.fa-heart{
+    color: #ff0000b0;
+}
+
+footer {
+    color: #747474;
+    width: 100%;
+    text-align: center;
+}
+
+/* Blinking cursor effect */
+.blink {
+    animation: blink-animation 1.2s steps(2, start) infinite;
+    -webkit-animation: blink-animation 1.2s steps(2, start) infinite;
+  }
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+
