@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body{
+html {
     font-family: 'Roboto', sans-serif;
     text-align: center;
-}
+    position: relative;
+    min-height: 100%;
+  }
 
+body {
+    margin: 0 0 100px;
+    /* bottom = footer height */
+    padding: 6rem;
+}
 main {
-    height: 80vh;
+    margin: 0;
+    height: 80%;
 }
 
 h1 {
@@ -26,11 +34,6 @@ h1 {
     color: #ff0000b0;
 }
 
-footer {
-    color: #747474;
-    width: 100%;
-    text-align: center;
-}
 
 /* Blinking cursor effect */
 .blink {
@@ -49,5 +52,62 @@ footer {
         visibility: hidden;
     }
 }
+/*End of blinking----------------------------------------------------------*/
 
+/*Follow us ------------------------------------*/
 
+footer {
+    position: absolute;
+    /*width: 100%;*/
+    right: 0;
+    left: 0;
+    bottom: 0;
+    /*height: 7rem;*/
+    padding:1rem 3rem;
+    font-size: 1rem;
+    color: #F8F8F8;
+    background-color: #162227;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.followus {
+    font-size: 1.2rem;
+}
+
+.followus .title {
+    margin-right: 1rem;
+    display: inline-block;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .followus i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.fa-facebook-square:hover {
+    color: #3b5998;
+  }
+
+.fa-meetup:hover {
+    color: #FF001D;
+  }
+
+.fa-github:hover {
+    color: #000;
+  }
+
+.fa-linkedin:hover {
+    color: #0078B5;
+  }
+
+  
