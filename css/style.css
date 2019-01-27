@@ -1,20 +1,28 @@
+
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-html {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    position: relative;
-    min-height: 100%;
-  }
-
 body {
-    margin: 0 0 100px;
-    /* bottom = footer height */
-    padding: 6rem;
-}
-main {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
     margin: 0;
-    height: 80%;
+    height: 100vh;
+    display:flex; 
+    flex-direction:column; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.logo {
+    border-radius: 50%;
+}
+
+.main {
+    text-align: center;
 }
 
 h1 {
@@ -29,6 +37,12 @@ h1 {
     color: #747474;
 }
 
+footer {
+    width: 100%;
+    font-size: 1rem;
+    color: #F8F8F8;
+    background-color: #162227;
+}
 
 .fa-heart{
     color: #ff0000b0;
@@ -52,21 +66,13 @@ h1 {
         visibility: hidden;
     }
 }
-/*End of blinking----------------------------------------------------------*/
+/* End of blinking----------------------------------------------------------*/
 
-/*Follow us ------------------------------------*/
+/* Follow us ------------------------------------*/
 
-footer {
-    position: absolute;
-    /*width: 100%;*/
-    right: 0;
-    left: 0;
-    bottom: 0;
-    /*height: 7rem;*/
-    padding:1rem 3rem;
-    font-size: 1rem;
-    color: #F8F8F8;
-    background-color: #162227;
+
+.footer-items {
+    padding: 1rem 3rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
